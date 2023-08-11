@@ -4,7 +4,7 @@
 
 ## Project Goals
 
-![Project Goals]()
+![Project Goals](https://github.com/OmdenaAI/jakarta-indonesia-predicting-road-defects/blob/main/project%20goals.png)
 
 ## Project Structure
 
