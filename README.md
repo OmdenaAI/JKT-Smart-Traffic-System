@@ -13,4 +13,3 @@
     ├── src       <- Source Code
         └── task-name
     ├── reports   <- Project weekly reports
-    ├── data   <- datasets used for modeling
