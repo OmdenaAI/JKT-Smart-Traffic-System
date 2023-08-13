@@ -1,5 +1,7 @@
-# traffic-density-classification
+# Predict Traffic Density
 
-Build a model to classify different levels of congestion from road camera footage. 
+Trained using Ultralytics YOLOv8 in google colab GPU runtime.
 
-[Traffic Density Dataset](https://www.kaggle.com/datasets/rahat52/traffic-density-singapore)
+Project Workspace Link: https://drive.google.com/drive/folders/1Ssy-3IhQzvOPXKfY2yytFBCUodW0zTuC?usp=sharing
+
+Make a copy of this project folder and place your kaggle.json (containing API Key) in `Kaggle/`
