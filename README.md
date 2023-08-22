@@ -12,4 +12,3 @@
     ├── README.md <- Top Level Guide of repository
     ├── src       <- Source Code
         └── task-name
-    ├── reports   <- Project weekly reports
