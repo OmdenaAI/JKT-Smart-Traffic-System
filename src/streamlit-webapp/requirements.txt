@@ -1,4 +1,4 @@
 Pillow
-opencv-python
+opencv-python-headless
 roboflow
 ultralytics
