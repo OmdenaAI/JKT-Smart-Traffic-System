@@ -2,6 +2,8 @@
 
 [Omdena Local Chapter Challenge Link](https://omdena.com/chapter-challenges/predicting-road-defects-and-optimizing-traffic-light-countdown-to-reduce-congestion-in-indonesia/)
 
+[Streamlit Webapp](https://omdena-jkt-traffic-system.streamlit.app/)
+
 ## Project Goals
 
 ![Project Goals](https://github.com/OmdenaAI/jakarta-indonesia-predicting-road-defects/blob/main/project%20goals.png)
