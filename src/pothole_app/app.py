@@ -5,6 +5,7 @@ import numpy as np
 import tempfile
 import torch
 import os
+import time
 import torchvision
 import torchvision.transforms.functional as tf
 from utils import show_bbox, preprocess_bbox,get_model
@@ -85,5 +86,6 @@ elif format=="Video":
                             frame=cv2.resize(frame,(480,480))
                             detect_img=detection_img(frame,conf_threshold,iou_threshold)
                             st.image(detect_img)
+                            time.sleep(1/40)
                     else:
                         break
