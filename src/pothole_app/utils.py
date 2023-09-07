@@ -40,7 +40,7 @@ def get_model():
     model.head=SSDHead(in_channels=in_channels,num_anchors=num_anchors,
                        num_classes=2)
     
-    dirname=os.path.dirname(os.path.abspath(__file__)))
+    dirname=os.path.dirname(os.path.abspath(__file__))
     path=os.path.join(dirname,"pothole_model_lite.pth")
     weights=torch.load(path,map_location="cpu")
     model.load_state_dict(weights)
