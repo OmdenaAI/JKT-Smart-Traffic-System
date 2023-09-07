@@ -86,6 +86,6 @@ elif format=="Video":
                             frame=cv2.resize(frame,(480,480))
                             detect_img=detection_img(frame,conf_threshold,iou_threshold)
                             st.image(detect_img)
-                            time.sleep(1/40)
+                            time.sleep(1/20)
                     else:
                         break
