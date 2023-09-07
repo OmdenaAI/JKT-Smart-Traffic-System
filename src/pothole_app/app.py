@@ -83,9 +83,8 @@ elif format=="Video":
                     ret,frame=cap.read()
                     if ret==True:
                         with torch.no_grad():
-                            frame=cv2.resize(frame,(480,480))
+                            frame=cv2.resize(frame,(320,320))
                             detect_img=detection_img(frame,conf_threshold,iou_threshold)
                             st.image(detect_img)
-                            time.sleep(1/20)
                     else:
                         break
