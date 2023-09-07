@@ -11,8 +11,8 @@ from utils import show_bbox, preprocess_bbox,get_model
 
 
 st.title("Real Time Pothole Detection")
-st.markdown("""**Single Shot Detector with vgg backbone is utilized for detecting potholes on the roads. The model \
-            achieved a mean average precision of 0.536 at 0.50 intersection over union**""")
+st.markdown("""**Single Shot Detector with MobileNetv3 backbone is utilized for detecting potholes on the roads. The model \
+            achieved a mean average precision of 0.466 at 0.50 intersection over union**""")
 st.write("Default images and video are provided, you can just click detect for seeing detection, otherwise provide\
           your files." )
 
@@ -62,8 +62,8 @@ if format=="Image":
 elif format=="Video":
     video_data=st.sidebar.file_uploader("Input Video File",type = ['mp4','mpeg'])
     button=st.button("Detect")
-    conf_threshold=st.sidebar.slider("Confidence Threshold", min_value=0.0,max_value=1.0,value=0.2,step=0.05)
-    iou_threshold=st.sidebar.slider("IOU Threshold", min_value=0.0,max_value=1.0,value=0.7,step=0.05)
+    conf_threshold=st.sidebar.slider("Confidence Threshold", min_value=0.0,max_value=1.0,value=0.3,step=0.05)
+    iou_threshold=st.sidebar.slider("IOU Threshold", min_value=0.0,max_value=1.0,value=0.6,step=0.05)
     if video_data is not None:
         temp_file_1=tempfile.NamedTemporaryFile(delete=False,suffix='.mp4')
         temp_file_1.write(video_data.getbuffer())
