@@ -6,8 +6,6 @@ import tempfile
 import torch
 import os
 import torchvision
-from torchvision.models.detection.ssd import SSDHead,det_utils
-from torchvision.models.detection import ssd300_vgg16,SSD300_VGG16_Weights
 import torchvision.transforms.functional as tf
 from utils import show_bbox, preprocess_bbox,get_model
 
@@ -18,7 +16,7 @@ st.markdown("""**Single Shot Detector with vgg backbone is utilized for detectin
 st.write("Default images and video are provided, you can just click detect for seeing detection, otherwise provide\
           your files." )
 
-format=st.sidebar.radio("Image/Video",["Image","Video"],index=1)
+format=st.sidebar.radio("Image/Video",["Image","Video"],index=0)
 model=get_model()
 model.eval()
 

@@ -3,8 +3,10 @@ import cv2
 import torch
 import torchvision
 from torchvision.models.detection.ssd import SSDHead,det_utils
-from torchvision.models.detection import ssd300_vgg16,SSD300_VGG16_Weights
+from torchvision.models.detection import ssdlite320_mobilenet_v3_large
 import streamlit as st
+from urllib.request import urlopen
+import tempfile
 
 def show_bbox(img,target,color=(0,255,0)):
     img=np.transpose(img.numpy(),(1,2,0))
@@ -31,11 +33,11 @@ def preprocess_bbox(prediction,conf_threshold,iou_threshold):
 
 @st.cache_resource
 def get_model():
-    model=model=ssd300_vgg16(weights=None,weights_backbone=None)
+    model=ssdlite320_mobilenet_v3_large(weights=None,weights_backbone=None)
     in_channels=det_utils.retrieve_out_channels(model.backbone,(480,480))
     num_anchors=model.anchor_generator.num_anchors_per_location()
     model.head=SSDHead(in_channels=in_channels,num_anchors=num_anchors,
-                   num_classes=2)
-    weights=torch.load("pothole_model.pth",map_location="cpu")
+                       num_classes=2)
+    weights=torch.load("pothole_model_lite.pth",map_location="cpu")
     model.load_state_dict(weights)
     return model
