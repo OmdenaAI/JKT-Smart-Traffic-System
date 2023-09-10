@@ -1,5 +1,7 @@
 # pothole-detection
 
-Build a model to detect the presence of road defects, such as potholes.
+Build a model to detect potholes.
 
-[Roboflow Pothole Dataset](https://universe.roboflow.com/brad-dwyer/pothole-voxrl/model/1)
+1. [Roboflow Pothole Dataset](https://universe.roboflow.com/brad-dwyer/pothole-voxrl/model/1)
+
+2. [Kaggle Pothole Dataset](https://www.kaggle.com/datasets/andrewmvd/pothole-detection)
