@@ -59,18 +59,21 @@ Pytorch, Torchvision, Ultralytics, OpenCV, Numpy, Streamlit, Git
 ```
 
 ## Vehicle Category Classification and Detection
+![](https://github.com/OmdenaAI/jakarta-indonesia-predicting-road-defects/blob/main/webapp/images/home_page/Vehicle%20Categorization.png)
 - Reducing vehicle speed can prevent road crash incidents as an average 1 km increase in vehicle speed can lead to 3 percent increase in road accidents.
 - Detecting and Categorizing different types of vehicle in traffic flow can help in determining vehicles speed using optical flow and enforcing speed limits.
 - Single Shot Detector architecture with mobileNet_v3 backone is utilized for categorizing different Vehicles type.
 - The model achieved a mean average precision of 0.645 on test dataset @ iou=0.50.
 
 ## Traffic Density Classification
+![](https://github.com/OmdenaAI/jakarta-indonesia-predicting-road-defects/blob/main/webapp/images/home_page/Traffic%20Classification.png)
 - The primary goal of traffic management is to make the movement of goods and persons as efficient, orderly, and safe as possible.
 - Traffic Density Classification will be instrumental in redirecting traffic from major roads during peak hours and making the overall movement be safer and more efficient.
 - EfficientNet_b0 architecture is utilized for traffic density classification into Empty, Low, Medium, High, Traffic Jam categories.
 - The model achieved a mean average accuracy of 0.93 on test dataset.
 
 ## Pothole Object Detection
+![](https://github.com/OmdenaAI/jakarta-indonesia-predicting-road-defects/blob/main/webapp/images/home_page/Pothole.png)
 - The safety and efficiency of travel systems depend on how well roads are kept up.
 - Pothole Object Detection will be helpful in early identification of pothole and lowering long-term repair costs.
 - It will be critical for ensuring the safety of drivers and the overall efficiency of transportation infrastructure.
