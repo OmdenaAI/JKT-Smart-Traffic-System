@@ -42,7 +42,7 @@ with col1:
 with col2:
     st.markdown("""
                 - Reducing vehicle speed can prevent road crash incidents as an average 1 km increase in vehicle speed can\
-                 lead to 3 increase in road accidents.
+                 lead to 3 percent increase in road accidents.
                 - Detecting and Categorizing different types of vehicle in traffic flow can help in determining vehicles \
                  speed using optical flow and enforcing speed limits.
                 - Single Shot Detector architecture with mobileNet_v3 backone is utilized for categorizing different Vehicles \
