@@ -1,7 +1,7 @@
 
 
 
-# Omdena Jakarta - Traffic System Management
+# Omdena Jakarta - Smart Traffic System
 
 [streamlit-Introduction-2023-09-11-12-09-06.webm](https://github.com/OmdenaAI/jakarta-indonesia-predicting-road-defects/assets/102512385/4b2f7aa7-e1b1-4c41-9dcd-06dee683d6b7)
 
