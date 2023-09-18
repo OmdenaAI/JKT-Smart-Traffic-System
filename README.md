@@ -1,17 +1,20 @@
-
-
-
 # Omdena Jakarta - Smart Traffic System
 
-[streamlit-Introduction-2023-09-11-12-09-06.webm](https://github.com/OmdenaAI/jakarta-indonesia-predicting-road-defects/assets/102512385/4b2f7aa7-e1b1-4c41-9dcd-06dee683d6b7)
+## Project Links: 
+1. [Streamlit Webapp](https://omdena-jakarta-traffic-system.streamlit.app/)
+2. [Pitch Deck Video](https://clipchamp.com/watch/R69z4mhQp3o)
+3. [Omdena Chapter Link](https://omdena.com/chapter-challenges/predicting-road-defects-and-optimizing-traffic-light-countdown-to-reduce-congestion-in-indonesia/)
 
+https://github.com/OmdenaAI/jakarta-indonesia-predicting-road-defects/assets/102512385/4b2f7aa7-e1b1-4c41-9dcd-06dee683d6b7
 
+## Background
 **Traffic Management refers to the combination of measures that serve to preserve traffic capacity and improve the security, safety and reliability of the overall road transport system. These measures make use of ITS systems, services and projects in day-to-day operations that impact on road network performance. Proper traffic management can ensure that**
 - Traffic flows smoothly and efficiently.
 - Roads are well maintained and safe for all users, including pedestrians and cyclists.
 - Congestion, local pollution and accidents are minimized.
 - Vehicles are within speed limits and heading in correct direction along lane.
 
+## Solution
 **In this project we aim to provide smart solutions to address problems associated with Traffic Management**
 
 - Vehicle Category Classification and Detection.
@@ -83,7 +86,7 @@ Pytorch, Torchvision, Ultralytics, OpenCV, Numpy, Streamlit, Git
 - Single Shot Detector with MobileNetv3 backbone is utilized for detecting potholes on the roads.
 - The model achieved a mean average precision of 0.512 at 0.50 intersection over union.
 
-## Run Locally
+## Run Webapp Locally
 
 Clone the project
 
@@ -99,7 +102,7 @@ Change to project directory
 Create Virtaul Environment and install dependencies
 
 ```bash
-  pip install virtualenv
+  py -m venv venv
   venv/Scripts/activate
   pip install -r requirements.txt
 ```
@@ -109,3 +112,15 @@ Run Locally
   streamlit run Introduction.py
 ```
 
+## Contributions
+Chapter Lead: Louis Jefferson Zhang
+
+Technical Lead: Sudhanshu Rastogi
+
+Collaborators:
+- Mohamed Chahed
+- Mansoor Baig
+- Nishtha Bhattacharjee
+
+## Project Archives
+Navigate to [archive branch](https://github.com/OmdenaAI/smart-traffic-system-JKT/tree/archive) to look into some project development notebooks.
