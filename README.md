@@ -34,7 +34,6 @@ Pytorch, Torchvision, Ultralytics, OpenCV, Numpy, Streamlit, Git
 ```bash
 
 ├── notebooks
-│   ├── README.md
 │   │── real-time-pothole-detection-using-ssd.ipynb
 |   |── traffic-density-classification-using-efficientnet.ipynb
 │   └── vehicle-category-object-detection-pytorch.ipynb
