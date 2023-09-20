@@ -83,6 +83,11 @@ Pytorch, Torchvision, Ultralytics, OpenCV, Numpy, Streamlit, Git
 - Single Shot Detector with MobileNetv3 backbone is utilized for detecting potholes on the roads.
 - The model achieved a mean average precision of 0.512 at 0.50 intersection over union.
 
+## Future Development
+- Road Lane Instance Segmentation
+- Plate number recognition
+- Vehicle tracking for speed determination
+
 ## Run Webapp Locally
 
 Clone the project
